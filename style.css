@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+#balance, #quests, #shop {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #222;
+    padding-bottom: 0.5rem;
+}
+
+.quest, .item {
+    margin-bottom: 1.5rem;
+}
+
+.quest h3, .item h3 {
+    margin: 0;
+}
+
+.quest p, .item p {
+    margin: 0.5rem 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.complete-quest-button, .buy-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.complete-quest-button:hover, .buy-button:hover {
+    background-color: #0056b3;
+}
+
+#reactionButtons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.react-button {
+    padding: 0.5rem;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.react-button:hover {
+    background-color: #ccc;
+}
+
+#reactionCount {
+    margin-top: 0.5rem;
+}
