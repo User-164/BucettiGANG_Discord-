@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BucettiGANG Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BucettiGANG Shop</h1>
+    </header>
+    <main>
+        <section id="balance">
+            <h2>Your Balance</h2>
+            <p>Meme Coins: <span id="memeCoins">0</span></p>
+        </section>
+        <section id="quests">
+            <h2>Quests</h2>
+            <div class="quest" data-reward="5">
+                <h3>Post a meme in the chat</h3>
+                <p>Reward: 5 Meme Coins</p>
+                <textarea id="postMemeInput" placeholder="Enter your meme here..."></textarea>
+                <button class="complete-quest-button" id="postMemeButton">Complete</button>
+            </div>
+            <div class="quest" data-reward="10">
+                <h3>React to 10 messages</h3>
+                <p>Reward: 10 Meme Coins</p>
+                <button class="complete-quest-button" id="reactMessagesButton">Complete</button>
+                <div id="reactionButtons">
+                    <button class="react-button">😊</button>
+                    <button class="react-button">😂</button>
+                    <button class="react-button">😢</button>
+                    <button class="react-button">😲</button>
+                    <button class="react-button">👍</button>
+                </div>
+                <p id="reactionCount">0 / 10 Reactions</p>
+            </div>
+            <div class="quest" data-reward="15">
+                <h3>Invite a friend to the server</h3>
+                <p>Reward: 15 Meme Coins</p>
+                <button class="complete-quest-button" id="inviteFriendButton">Complete</button>
+            </div>
+        </section>
+        <section id="shop">
+            <h2>Shop Items</h2>
+            <div class="item" data-price="10">
+                <h3>Doge Sticker</h3>
+                <p>Price: 10 Meme Coins</p>
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="item" data-price="20">
+                <h3>Pepe Mug</h3>
+                <p>Price: 20 Meme Coins</p>
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="item" data-price="30">
+                <h3>Grumpy Cat T-Shirt</h3>
+                <p>Price: 30 Meme Coins</p>
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="item" data-price="50">
+                <h3>Big Chungus Poster</h3>
+                <p>Price: 50 Meme Coins</p>
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="item" data-price="75">
+                <h3>Harambe Hoodie</h3>
+                <p>Price: 75 Meme Coins</p>
+                <button class="buy-button">Buy</button>
+            </div>
+            <div class="item" data-price="100">
+                <h3>Rare Pepe NFT</h3>
+                <p>Price: 100 Meme Coins</p>
+                <button class="buy-button">Buy</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
